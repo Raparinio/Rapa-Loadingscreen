@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rapa LoadingScreen for DiviusRP</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  
+  <body>
+    <div id="main"></div>
+
+    <!--Muzyka-->
+    <audio id="loading" src="Control.mp3" autoplay="true" hidden="true" loop="true"></audio>
+    <img class="bg" id="imageroll" src="1.jpg" alt="1 ZDJECIE">
+
+    <!--loadbar-->
+    <div class="loading-state">Wczytywanie...</div>
+    <div class="loading-bar">
+      <div class="loading-progress-bar"></div>
+    </div>
+
+
+<div class="menu-container">
+    <div class="arrow-up">
+      <img src="ARROW_UP.png" width="1.25%">
+      <span class="menu-text">ZGŁOŚNIJ</span>
+  </div>
+  <div class="arrow-down">
+      <img src="ARROW_DOWN.png" width="1.25%">
+      <span class="menu-text">ŚCISZ</span>
+  </div>
+  <div class="space">
+    <img src="SPACE.png" width="3%">
+    <span class="menu-text" id="text">MUTE</span>
+</div>
+</div>
+
+<header>
+<div class="content">
+  <hgroup>
+    <h1>Nazwa</h1>
+    <i class="txt">serwera</i>
+  </hgroup>
+</div>
+</header>
+
+
+  
+    <script src="script.js"></script>
+  </body>
+</html>

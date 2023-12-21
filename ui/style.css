@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    user-select: none;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header .content {
+  position: absolute;
+  top: -50rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+header h1, header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+header h2 {
+  text-transform: uppercase;
+  margin-top: -.5em;
+}
+
+.txt {
+  font-size: 12px;
+
+}
+
+header hgroup {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 98%;
+  left: 3.76%;
+  color: #fff;
+  border: 3px solid #ffffff00;
+  padding: .2em 3em;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.bg {
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    z-index: -1;
+
+}
+
+ 
+  .loading-state {
+    position: absolute;
+    left: 46.5%;
+    bottom: 12vh;
+    color: #dbd5d5;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 0.85em;
+}
+
+.loading-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 1vh;
+    background: rgba(0,0,0,0.3);
+}
+
+.loading-progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    background-color: #1c0036;
+    transition: 1s;
+}
+
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0); /* Change the background color as needed */
+  pointer-events: none;
+}
+
+
+.menu-text{
+  text-align: left;
+  padding-right: 5%;
+  bottom: 20px;
+}
+
+.menu-container {
+  position: absolute;
+  bottom: 0px;
+  text-align: left;
+  margin-left: 40%;
+  padding-bottom: 13px;
+}
+
+.arrow-up,
+.arrow-down,
+.space {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  display: inline;
+  align-items: center;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+  
+}
+
+.arrow-up img,
+.arrow-down img,
+.space img {
+  margin-right: 2px;
+
+}
